@@ -1,0 +1,134 @@
+:root{
+    --cor1: #C3C3C3;
+    --cor2: #9F9F9F;
+    --cor3: #fff;
+    --cor4: #000000;
+}
+
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    width: 1370x;
+    height: 400px;
+    background-color: var(--cor1);
+}
+
+.topo{
+    padding: 60px;
+}
+
+#links{
+    display: flex;
+    gap: 10px;
+    justify-content: right;
+    margin-right: 140px;
+}
+
+.logotipo{
+    margin-bottom: 30px;
+}
+
+.introducao{
+    width: 300px;
+}
+
+#texto{
+    width: 300px;
+    font-size: 20px;
+}
+
+#intro{
+    font-size: 25px;
+    margin-bottom: 10px;
+    width: 200px;
+}
+
+#services{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#services div{
+    margin-top: 100px;
+    height: 300px;
+    width: 300px;
+    background-color: var(--cor1);
+}
+
+#work{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#work div{
+    margin-top: 100px;
+    height: 300px;
+    width: 300px;
+    background-color: var(--cor1);
+}
+
+#feed{
+    display: flex;
+    justify-content: center;
+}
+
+#feed div{
+    width: 940px;
+    height: 100px;
+    background-color: var(--cor1);
+    margin-top: 100px;
+}
+
+.rodape{
+    height: 70px;
+    display: flex;
+    background-color: var(--cor1);
+    margin-top: 40px;
+}
+
+#link{
+    display: flex;
+    margin-left: 200px;
+    line-height: 70px;
+    gap: 10px;
+}
+
+#copy{
+    margin-left: 630px;
+    line-height: 70px;
+}
+
+.fotos{
+    display: flex;
+    margin-left: 485px;
+}
+
+#c1{
+    height: 250px;
+    width: 600px;
+    background-color: var(--cor2);
+    margin-top: -130px;
+}
+
+#Slide{
+    font-size: 20px;
+    text-align: center;
+    line-height: 250px;
+}
+
+.galeria p{
+    font-size: 25px;
+    text-align: center;
+    line-height: 280px;
+}
+
+#feed p{
+    font-size: 20px;
+    line-height: 100px;
+    margin-left: 40px;
+}
